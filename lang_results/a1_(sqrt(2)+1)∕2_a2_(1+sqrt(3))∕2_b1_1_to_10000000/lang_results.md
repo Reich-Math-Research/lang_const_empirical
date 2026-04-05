@@ -1,0 +1,1 @@
+This is the output location of main.rs. It sends one JSON here containing the most important summary data, and two graphs. The first is just the constant curve, the second is the constant curve in the smallest regime.
