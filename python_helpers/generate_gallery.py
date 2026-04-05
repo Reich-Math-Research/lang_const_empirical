@@ -8,7 +8,7 @@ import time
 
 # Configuration
 RESULTS_DIR = "lang_results"
-OUTPUT_FILE = f"gallery_{time.strftime('%y-%m-%d-%H%M')}.html"
+OUTPUT_FILE = f"reports_and_galleries/gallery_{time.strftime('%y-%m-%d-%H%M')}.html"
 
 def generate_html():
     results_path = Path(RESULTS_DIR)
