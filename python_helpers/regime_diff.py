@@ -8,7 +8,7 @@ from pathlib import Path
 from collections import defaultdict
 
 RESULTS_DIR = "lang_results"
-OUTPUT_FILE = f"diff_report_{time.strftime('%y-%m-%d-%H%M')}.html"
+OUTPUT_FILE = f"reports_and_galleries/diff_report_{time.strftime('%y-%m-%d-%H%M')}.html"
 
 def load_json_data():
     data_map = defaultdict(list)
